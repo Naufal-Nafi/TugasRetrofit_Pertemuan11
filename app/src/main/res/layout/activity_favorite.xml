@@ -6,19 +6,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".FavoriteActivity">
 
-    <Button
-        android:id="@+id/btn_toFavorite"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Ke halaman favorite"
-        />
+<!--    <Button-->
+<!--        android:id="@+id/btn_nuke"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Delete All"-->
+<!--        />-->
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_retrofit"
+    <ListView
+        android:id="@+id/listView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        />
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>
